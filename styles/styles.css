@@ -27,6 +27,8 @@ body{
     background-color: #24053E;
     color: #ffffff;
     height: 724px;
+    position: relative;
+
 }
 
 .header-logo {
@@ -67,13 +69,14 @@ body{
     justify-content: center;
     /* agr vc é o pai do item mais proximo que posui a propriedade absolute*/
     position: relative;
+    
 }
 
 .header-img img{
     width: 767px;
     height: 441px;
     position:absolute;
-    left: 25%;
+    left: 33%;
 }
 
 .header-title button{
@@ -86,6 +89,10 @@ body{
     letter-spacing: -0.18px;
     padding: 14px 32px;
 }
+
+#anel1{}
+
+#anel2{}
 
 .section-main{
     background-color: var(--ghostWhite);
@@ -118,7 +125,7 @@ body{
 
 .section-founder{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 168px 0 60px;
     
 }
