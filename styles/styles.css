@@ -115,3 +115,50 @@ body{
     padding: 8px 16px;
     border-radius: 50%;
 }
+
+.section-founder{
+    display: flex;
+    justify-content: center;
+    padding: 168px 0 60px;
+}
+
+.founder-img img{
+    width: 477px;
+    height: 477px;
+
+}
+
+.founder-descr{
+    width: 730px;
+    height: 413px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    color: #ffffff;
+   background-color: var(--darkPurple); 
+}
+
+.founder-descr h2{
+ font-family: 'Fraunces 144', serif;
+ font-size: 56px;
+ font-weight: 600;
+ line-height: 64px;
+}
+
+.founder-descr p{
+    font-family: 'Manrope', system-ui;
+    line-height: 28px;
+}
+
+.founder-descr button{
+    font-family: 'Manrope', system-ui;
+    background-color: var(--eucaplyptus);
+    color: var(--darkPurple);
+    font-weight: 800;
+    border:none;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    padding: 12px 23px;
+}
