@@ -118,8 +118,9 @@ body{
 
 .section-founder{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 168px 0 60px;
+    
 }
 
 .founder-img img{
@@ -130,6 +131,9 @@ body{
 
 .founder-descr{
     width: 730px;
+    /*quando eu uso position absolute> top, left, rigth e bottom*/
+    
+    left: 55%;
     height: 413px;
     padding: 64px;
     display: flex;
@@ -161,4 +165,17 @@ body{
     line-height: 32px;
     letter-spacing: -0.18px;
     padding: 12px 23px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 110px;
+    gap: 56px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 28px;
 }
