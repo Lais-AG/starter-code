@@ -90,9 +90,19 @@ body{
     padding: 14px 32px;
 }
 
-#anel1{}
+#anel1{
+    width: 270px;
+    height: 251px;
+    position: absolute;
+    left: -8%;
+}
 
-#anel2{}
+#anel2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 93%;
+}
 
 .section-main{
     background-color: var(--ghostWhite);
@@ -149,6 +159,8 @@ body{
     align-items: flex-start;
     color: #ffffff;
    background-color: var(--darkPurple); 
+   position: relative;
+   left: 5%;
 }
 
 .founder-descr h2{
@@ -173,6 +185,14 @@ body{
     letter-spacing: -0.18px;
     padding: 12px 23px;
 }
+
+#anel3{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 80%;
+}
+
 
 .footer{
     display: flex;
