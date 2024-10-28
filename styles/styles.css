@@ -94,7 +94,8 @@ body{
     width: 270px;
     height: 251px;
     position: absolute;
-    left: -8%;
+    left: -4%;
+    top: 10%;
 }
 
 #anel2{
@@ -102,6 +103,7 @@ body{
     height: 150px;
     position: absolute;
     left: 93%;
+    top: 38%;
 }
 
 .section-main{
@@ -137,6 +139,8 @@ body{
     display: flex;
     justify-content: center;
     padding: 168px 0 60px;
+    position: relative;
+   left: 5%;
     
 }
 
@@ -159,8 +163,6 @@ body{
     align-items: flex-start;
     color: #ffffff;
    background-color: var(--darkPurple); 
-   position: relative;
-   left: 5%;
 }
 
 .founder-descr h2{
@@ -190,7 +192,8 @@ body{
     width: 200px;
     height: 150px;
     position: absolute;
-    left: 80%;
+    top: 68%;
+    left: 60%;
 }
 
 
