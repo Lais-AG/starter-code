@@ -19,15 +19,20 @@
 
 }
 
+html, body{
+    overflow-x: hidden;
+}
 body{
+
     font-family: "Manrope", system-ui;
 }
 
 .header{
     background-color: #24053E;
-    color: #ffffff;
+    color: var(--white);
     height: 724px;
     position: relative;
+    width: 100%;
 
 }
 
@@ -42,6 +47,14 @@ body{
 .header-logo p{
     text-decoration: 2px underline var(--eucaplyptus);
     text-underline-offset: 7px;
+    color: var(--white);
+
+}
+
+.header-logo p:hover{
+    color: var(--eucaplyptus);
+    cursor: pointer;
+
 
 }
 
@@ -88,6 +101,14 @@ body{
     line-height: 32px;
     letter-spacing: -0.18px;
     padding: 14px 32px;
+    border: none;
+}
+
+.header-title button:hover{
+    background-color: transparent;
+    color: var(--eucaplyptus);
+    cursor: pointer;
+    border: 1px solid var(--eucaplyptus);
 }
 
 #anel1{
@@ -140,7 +161,7 @@ body{
     justify-content: center;
     padding: 168px 0 60px;
     position: relative;
-   left: 5%;
+    left: 5%;
     
 }
 
@@ -153,16 +174,18 @@ body{
 .founder-descr{
     width: 730px;
     /*quando eu uso position absolute> top, left, rigth e bottom*/
-    
-    left: 55%;
-    height: 413px;
+    position: relative;
+    right: 5%;
+    height: auto;
     padding: 64px;
     display: flex;
     flex-direction: column;
     gap: 32px;
     align-items: flex-start;
     color: #ffffff;
-   background-color: var(--darkPurple); 
+    background-color: var(--darkPurple); 
+    margin-top: 8%;
+   
 }
 
 .founder-descr h2{
@@ -186,13 +209,21 @@ body{
     line-height: 32px;
     letter-spacing: -0.18px;
     padding: 12px 23px;
+    border: none;
 }
 
+.founder-descr button:hover{
+    color: var(--eucaplyptus);
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid var(--eucaplyptus);
+    
+}
 #anel3{
     width: 200px;
     height: 150px;
     position: absolute;
-    top: 68%;
+    top: 75%;
     left: 60%;
 }
 
@@ -208,4 +239,44 @@ body{
 .footer-icons{
     display: flex;
     gap: 28px;
+}
+
+.footer-icons img{
+    transition: 0.3s ease-out;
+}
+
+.footer-icons img:hover{
+    cursor: pointer;
+    background-color: #24053e18;
+}
+
+@media  screen and (max-width: 768px) {
+    .header{
+        
+    }
+    .header-img img {
+        width: 514px;
+        height: 296px;
+        left: 15%;
+        top: 80px;
+    }
+}
+
+@media  screen and (max-width: 469px) {
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 560px) {
+    .header{
+        width: 560px;
+        height: 481px;
+        left: -1%;
+        top: 80px;
+    }
+
 }
