@@ -373,7 +373,19 @@ body{
         text-align: center;
     }
 
+    .founder-img img{
+        width: 281px;
+        height: 281px;
+        right: 0%;
+        margin: 16px;
+    }
 
+    .founder-descr{
+        width: 343px;
+        height: auto;
+        right: 40%; 
+        padding: 240px 16px 240px 16px;
+    }
 
 
 
