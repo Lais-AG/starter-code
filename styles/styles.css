@@ -323,6 +323,12 @@ body{
 
 @media  screen and (max-width: 469px) {
 
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .header{
         height: 481px;
     }
@@ -373,20 +379,45 @@ body{
         text-align: center;
     }
 
+    .section-founder{
+       flex-direction: column;
+       padding: 104px 16px 0 16px;
+       left: 0;
+       align-items: center;
+    }
+
+    .founder-img{
+        display: flex;
+        justify-content: center;
+    }
+
     .founder-img img{
         width: 281px;
         height: 281px;
-        right: 0%;
-        margin: 16px;
+    }
+
+    #anel3{
+        left: 0;
+        width: 0;
+        height: 0;
     }
 
     .founder-descr{
         width: 343px;
-        height: auto;
-        right: 40%; 
-        padding: 240px 16px 240px 16px;
+        margin-top: 0;
+        top: -50px;
+        left: 0;
+        padding: 32px ;
+        gap: 16px;
+        align-items: center;
     }
 
+    .founder-descr h2{
+        font-size: 32px;
+        line-height: 48px;
+    }
 
-...
+    .founder-descr p{
+        text-align: center;
+    }
 }
